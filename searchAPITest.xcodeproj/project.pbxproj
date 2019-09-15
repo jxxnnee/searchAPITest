@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54BE731FBB9F6A452735E2B8 /* Pods_serachAPITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C149D554ACFE88E31BC6459D /* Pods_serachAPITest.framework */; };
+		876F8FCE2325258F0053F076 /* SearchedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F8FCD2325258F0053F076 /* SearchedTableViewCell.swift */; };
+		876F8FD0232525A80053F076 /* RecommendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F8FCF232525A80053F076 /* RecommendTableViewCell.swift */; };
+		876F8FD2232534B10053F076 /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F8FD1232534B10053F076 /* EmptyTableViewCell.swift */; };
+		876F8FD42327B0600053F076 /* WikiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F8FD32327B0600053F076 /* WikiModel.swift */; };
 		87ABC4BF2324C4CE00C95207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABC4BE2324C4CE00C95207 /* AppDelegate.swift */; };
 		87ABC4C12324C4CE00C95207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABC4C02324C4CE00C95207 /* ViewController.swift */; };
 		87ABC4C42324C4CE00C95207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87ABC4C22324C4CE00C95207 /* Main.storyboard */; };
 		87ABC4C62324C4D100C95207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87ABC4C52324C4D100C95207 /* Assets.xcassets */; };
 		87ABC4C92324C4D100C95207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87ABC4C72324C4D100C95207 /* LaunchScreen.storyboard */; };
+		87ABC4D32324C6F400C95207 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 87ABC4D02324C6F400C95207 /* back.png */; };
+		87ABC4D42324C6F400C95207 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 87ABC4D12324C6F400C95207 /* search.png */; };
+		87ABC4D52324C6F400C95207 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 87ABC4D22324C6F400C95207 /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87ABC4BB2324C4CE00C95207 /* serachAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = serachAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA4E3917267F7EAF0D5DD5 /* Pods-serachAPITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serachAPITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-serachAPITest/Pods-serachAPITest.release.xcconfig"; sourceTree = "<group>"; };
+		876F8FCD2325258F0053F076 /* SearchedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedTableViewCell.swift; sourceTree = "<group>"; };
+		876F8FCF232525A80053F076 /* RecommendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendTableViewCell.swift; sourceTree = "<group>"; };
+		876F8FD1232534B10053F076 /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
+		876F8FD32327B0600053F076 /* WikiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiModel.swift; sourceTree = "<group>"; };
+		87ABC4BB2324C4CE00C95207 /* searchAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ABC4BE2324C4CE00C95207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87ABC4C02324C4CE00C95207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87ABC4C32324C4CE00C95207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87ABC4C52324C4D100C95207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87ABC4C82324C4D100C95207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87ABC4CA2324C4D100C95207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87ABC4D02324C6F400C95207 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		87ABC4D12324C6F400C95207 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		87ABC4D22324C6F400C95207 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		C149D554ACFE88E31BC6459D /* Pods_serachAPITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_serachAPITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6E3471804818987660BD7B /* Pods-serachAPITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serachAPITest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-serachAPITest/Pods-serachAPITest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54BE731FBB9F6A452735E2B8 /* Pods_serachAPITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,20 +57,22 @@
 		87ABC4B22324C4CE00C95207 = {
 			isa = PBXGroup;
 			children = (
-				87ABC4BD2324C4CE00C95207 /* serachAPITest */,
+				87ABC4BD2324C4CE00C95207 /* searchAPITest */,
 				87ABC4BC2324C4CE00C95207 /* Products */,
+				ED0A8F9469AA88B91A3BB9E2 /* Pods */,
+				87AC36E218D9F594B7A1F35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		87ABC4BC2324C4CE00C95207 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87ABC4BB2324C4CE00C95207 /* serachAPITest.app */,
+				87ABC4BB2324C4CE00C95207 /* searchAPITest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87ABC4BD2324C4CE00C95207 /* serachAPITest */ = {
+		87ABC4BD2324C4CE00C95207 /* searchAPITest */ = {
 			isa = PBXGroup;
 			children = (
 				87ABC4BE2324C4CE00C95207 /* AppDelegate.swift */,
@@ -60,28 +81,62 @@
 				87ABC4C52324C4D100C95207 /* Assets.xcassets */,
 				87ABC4C72324C4D100C95207 /* LaunchScreen.storyboard */,
 				87ABC4CA2324C4D100C95207 /* Info.plist */,
+				876F8FCD2325258F0053F076 /* SearchedTableViewCell.swift */,
+				876F8FCF232525A80053F076 /* RecommendTableViewCell.swift */,
+				876F8FD1232534B10053F076 /* EmptyTableViewCell.swift */,
+				876F8FD32327B0600053F076 /* WikiModel.swift */,
+				87ABC4D62324C70100C95207 /* Images */,
 			);
-			path = serachAPITest;
+			path = searchAPITest;
+			sourceTree = "<group>";
+		};
+		87ABC4D62324C70100C95207 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				87ABC4D02324C6F400C95207 /* back.png */,
+				87ABC4D22324C6F400C95207 /* close.png */,
+				87ABC4D12324C6F400C95207 /* search.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		87AC36E218D9F594B7A1F35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C149D554ACFE88E31BC6459D /* Pods_serachAPITest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED0A8F9469AA88B91A3BB9E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E3471804818987660BD7B /* Pods-serachAPITest.debug.xcconfig */,
+				7ACA4E3917267F7EAF0D5DD5 /* Pods-serachAPITest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87ABC4BA2324C4CE00C95207 /* serachAPITest */ = {
+		87ABC4BA2324C4CE00C95207 /* searchAPITest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87ABC4CD2324C4D100C95207 /* Build configuration list for PBXNativeTarget "serachAPITest" */;
+			buildConfigurationList = 87ABC4CD2324C4D100C95207 /* Build configuration list for PBXNativeTarget "searchAPITest" */;
 			buildPhases = (
+				48EC388F432954AE47B80EBD /* [CP] Check Pods Manifest.lock */,
 				87ABC4B72324C4CE00C95207 /* Sources */,
 				87ABC4B82324C4CE00C95207 /* Frameworks */,
 				87ABC4B92324C4CE00C95207 /* Resources */,
+				668CDDE2D06391D4AE2C0E2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = serachAPITest;
+			name = searchAPITest;
 			productName = serachAPITest;
-			productReference = 87ABC4BB2324C4CE00C95207 /* serachAPITest.app */;
+			productReference = 87ABC4BB2324C4CE00C95207 /* searchAPITest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 87ABC4B62324C4CE00C95207 /* Build configuration list for PBXProject "serachAPITest" */;
+			buildConfigurationList = 87ABC4B62324C4CE00C95207 /* Build configuration list for PBXProject "searchAPITest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87ABC4BA2324C4CE00C95207 /* serachAPITest */,
+				87ABC4BA2324C4CE00C95207 /* searchAPITest */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ABC4D52324C6F400C95207 /* close.png in Resources */,
+				87ABC4D42324C6F400C95207 /* search.png in Resources */,
+				87ABC4D32324C6F400C95207 /* back.png in Resources */,
 				87ABC4C92324C4D100C95207 /* LaunchScreen.storyboard in Resources */,
 				87ABC4C62324C4D100C95207 /* Assets.xcassets in Resources */,
 				87ABC4C42324C4CE00C95207 /* Main.storyboard in Resources */,
@@ -130,12 +188,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48EC388F432954AE47B80EBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-serachAPITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668CDDE2D06391D4AE2C0E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-serachAPITest/Pods-serachAPITest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serachAPITest/Pods-serachAPITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87ABC4B72324C4CE00C95207 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876F8FD0232525A80053F076 /* RecommendTableViewCell.swift in Sources */,
+				876F8FD42327B0600053F076 /* WikiModel.swift in Sources */,
 				87ABC4C12324C4CE00C95207 /* ViewController.swift in Sources */,
+				876F8FCE2325258F0053F076 /* SearchedTableViewCell.swift in Sources */,
+				876F8FD2232534B10053F076 /* EmptyTableViewCell.swift in Sources */,
 				87ABC4BF2324C4CE00C95207 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,15 +389,16 @@
 		};
 		87ABC4CE2324C4D100C95207 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6E3471804818987660BD7B /* Pods-serachAPITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = serachAPITest/Info.plist;
+				INFOPLIST_FILE = searchAPITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.induk.serachAPITest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.induk.searchAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +407,16 @@
 		};
 		87ABC4CF2324C4D100C95207 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACA4E3917267F7EAF0D5DD5 /* Pods-serachAPITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = serachAPITest/Info.plist;
+				INFOPLIST_FILE = searchAPITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.induk.serachAPITest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.induk.searchAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87ABC4B62324C4CE00C95207 /* Build configuration list for PBXProject "serachAPITest" */ = {
+		87ABC4B62324C4CE00C95207 /* Build configuration list for PBXProject "searchAPITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87ABC4CB2324C4D100C95207 /* Debug */,
@@ -324,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87ABC4CD2324C4D100C95207 /* Build configuration list for PBXNativeTarget "serachAPITest" */ = {
+		87ABC4CD2324C4D100C95207 /* Build configuration list for PBXNativeTarget "searchAPITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87ABC4CE2324C4D100C95207 /* Debug */,
