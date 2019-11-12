@@ -1,0 +1,6 @@
+framework module Pods_serachAPITest {
+  umbrella header "Pods-serachAPITest-umbrella.h"
+
+  export *
+  module * { export * }
+}

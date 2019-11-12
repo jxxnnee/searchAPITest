@@ -10,6 +10,9 @@ import UIKit
 
 class RecommendTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var recommendText: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
